@@ -2,22 +2,22 @@
 
 /* ─── CSS Variables ─────────────────────────────────────── */
 :root {
-  --bg-primary: #0a0e1a;
-  --bg-secondary: #0d1226;
-  --bg-card: #111827;
-  --bg-card-hover: #1a2236;
-  --accent-primary: #00d4ff;
-  --accent-secondary: #7c3aff;
-  --accent-green: #00ff88;
-  --text-primary: #f0f4ff;
-  --text-secondary: #8892b0;
-  --text-muted: #4a5568;
-  --border-color: rgba(0, 212, 255, 0.12);
-  --border-hover: rgba(0, 212, 255, 0.35);
-  --shadow-glow: 0 0 30px rgba(0, 212, 255, 0.08);
-  --gradient-hero: linear-gradient(135deg, #0a0e1a 0%, #0d1226 50%, #0f1535 100%);
-  --gradient-accent: linear-gradient(135deg, #00d4ff, #7c3aff);
-  --gradient-card: linear-gradient(135deg, rgba(0, 212, 255, 0.05), rgba(124, 58, 255, 0.05));
+  --bg-primary: #12100e;
+  --bg-secondary: #161310;
+  --bg-card: #1e1a16;
+  --bg-card-hover: #261f18;
+  --accent-primary: #C08552;
+  --accent-secondary: #8C5A3C;
+  --accent-green: #D4A96A;
+  --text-primary: #f5ede4;
+  --text-secondary: #a89888;
+  --text-muted: #6b5a4e;
+  --border-color: rgba(192, 133, 82, 0.12);
+  --border-hover: rgba(192, 133, 82, 0.35);
+  --shadow-glow: 0 0 30px rgba(192, 133, 82, 0.08);
+  --gradient-hero: linear-gradient(135deg, #12100e 0%, #161310 50%, #1a1410 100%);
+  --gradient-accent: linear-gradient(135deg, #C08552, #8C5A3C);
+  --gradient-card: linear-gradient(135deg, rgba(192, 133, 82, 0.05), rgba(140, 90, 60, 0.05));
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --radius: 16px;
   --radius-sm: 8px;

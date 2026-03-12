@@ -11,7 +11,7 @@
 }
 
 .navbar.scrolled {
-  background: rgba(10, 14, 26, 0.92);
+  background: rgba(18, 16, 14, 0.92);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border-color);
   padding: 12px 0;
@@ -77,12 +77,12 @@
   font-weight: 600 !important;
   -webkit-text-fill-color: white !important;
   transition: var(--transition);
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+  box-shadow: 0 0 20px rgba(192, 133, 82, 0.2);
 }
 
 .nav-cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 0 30px rgba(0, 212, 255, 0.4);
+  box-shadow: 0 0 30px rgba(192, 133, 82, 0.4);
 }
 
 .nav-cta::after { display: none; }
@@ -132,7 +132,7 @@
 .hero-orb-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(0, 212, 255, 0.12), transparent 70%);
+  background: radial-gradient(circle, rgba(192, 133, 82, 0.12), transparent 70%);
   top: -100px;
   right: -100px;
 }
@@ -140,7 +140,7 @@
 .hero-orb-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(124, 58, 255, 0.1), transparent 70%);
+  background: radial-gradient(circle, rgba(140, 90, 60, 0.1), transparent 70%);
   bottom: -50px;
   left: -50px;
   animation-delay: -4s;
@@ -162,8 +162,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(0, 212, 255, 0.08);
-  border: 1px solid rgba(0, 212, 255, 0.2);
+  background: rgba(192, 133, 82, 0.08);
+  border: 1px solid rgba(192, 133, 82, 0.2);
   border-radius: 100px;
   padding: 6px 16px;
   font-size: 0.8rem;
@@ -234,14 +234,14 @@
   font-weight: 600;
   font-size: 0.9rem;
   transition: var(--transition);
-  box-shadow: 0 0 25px rgba(0, 212, 255, 0.25);
+  box-shadow: 0 0 25px rgba(192, 133, 82, 0.25);
   border: none;
   cursor: pointer;
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 40px rgba(0, 212, 255, 0.4);
+  box-shadow: 0 10px 40px rgba(192, 133, 82, 0.4);
   color: white;
 }
 
@@ -261,7 +261,7 @@
 }
 
 .btn-outline:hover {
-  background: rgba(0, 212, 255, 0.06);
+  background: rgba(192, 133, 82, 0.06);
   transform: translateY(-3px);
   border-color: var(--accent-primary);
   color: var(--accent-primary);
@@ -289,7 +289,7 @@
 }
 
 .social-icon:hover {
-  background: rgba(0, 212, 255, 0.1);
+  background: rgba(192, 133, 82, 0.1);
   border-color: var(--accent-primary);
   color: var(--accent-primary);
   transform: translateY(-3px);
@@ -346,7 +346,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(135deg, #0d1226, #1a2236);
+  background: linear-gradient(135deg, #1e1a16, #261f18);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -494,7 +494,7 @@ section {
   flex-shrink: 0;
   position: relative;
   z-index: 1;
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
+  box-shadow: 0 0 20px rgba(192, 133, 82, 0.15);
 }
 
 .timeline-content {
@@ -528,8 +528,8 @@ section {
 .timeline-date {
   font-size: 0.75rem;
   color: var(--accent-primary);
-  background: rgba(0, 212, 255, 0.08);
-  border: 1px solid rgba(0, 212, 255, 0.2);
+  background: rgba(192, 133, 82, 0.08);
+  border: 1px solid rgba(192, 133, 82, 0.2);
   padding: 3px 10px;
   border-radius: 100px;
   font-weight: 500;
@@ -642,8 +642,8 @@ section {
 
 .tag {
   font-size: 0.72rem;
-  background: rgba(0, 212, 255, 0.08);
-  border: 1px solid rgba(0, 212, 255, 0.15);
+  background: rgba(192, 133, 82, 0.08);
+  border: 1px solid rgba(192, 133, 82, 0.15);
   color: var(--accent-primary);
   padding: 3px 10px;
   border-radius: 100px;
@@ -673,7 +673,7 @@ section {
 .project-link:hover {
   color: var(--accent-primary);
   border-color: var(--accent-primary);
-  background: rgba(0, 212, 255, 0.06);
+  background: rgba(192, 133, 82, 0.06);
 }
 
 /* ─── Skills ───────────────────────────────────────────── */
@@ -723,9 +723,9 @@ section {
 
 .skill-tag {
   font-size: 0.78rem;
-  background: rgba(124, 58, 255, 0.08);
-  border: 1px solid rgba(124, 58, 255, 0.2);
-  color: #a78bfa;
+  background: rgba(140, 90, 60, 0.1);
+  border: 1px solid rgba(140, 90, 60, 0.25);
+  color: #D4A96A;
   padding: 4px 12px;
   border-radius: 100px;
   font-weight: 500;
@@ -733,8 +733,8 @@ section {
 }
 
 .skill-tag:hover {
-  background: rgba(124, 58, 255, 0.15);
-  border-color: rgba(124, 58, 255, 0.4);
+  background: rgba(140, 90, 60, 0.2);
+  border-color: rgba(140, 90, 60, 0.5);
 }
 
 /* ─── Certifications ───────────────────────────────────── */
@@ -846,8 +846,8 @@ section {
 
 .edu-badge {
   font-size: 0.78rem;
-  background: rgba(0, 255, 136, 0.08);
-  border: 1px solid rgba(0, 255, 136, 0.2);
+  background: rgba(212, 169, 106, 0.1);
+  border: 1px solid rgba(212, 169, 106, 0.25);
   color: var(--accent-green);
   padding: 3px 10px;
   border-radius: 100px;
@@ -910,7 +910,7 @@ section {
 
 .contact-item:hover {
   border-color: var(--accent-primary);
-  background: rgba(0, 212, 255, 0.04);
+  background: rgba(192, 133, 82, 0.04);
   transform: translateX(6px);
 }
 
