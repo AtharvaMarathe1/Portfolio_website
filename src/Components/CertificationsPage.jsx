@@ -12,15 +12,37 @@ export default function CertificationsPage() {
             <p className="section-subtitle">Verified credentials that back up the experience.</p>
           </div>
           <div className="certs-grid">
-            {DATA.certifications.map((c) => (
-              <div className="cert-card" key={c.name}>
-                <div className="cert-icon">{c.icon}</div>
-                <div>
-                  <div className="cert-name">{c.name}</div>
-                  <div className="cert-issuer">{c.issuer}</div>
+            {DATA.certifications.map((c) => {
+              const CardContent = (
+                <>
+                  <div className="cert-icon">{c.icon}</div>
+                  <div style={{ flex: 1 }}>
+                    <div className="cert-name">{c.name}</div>
+                    <div className="cert-issuer">{c.issuer}</div>
+                  </div>
+                  {c.link && c.link !== '#' && (
+                    <div style={{ opacity: 0.5, fontSize: '0.8rem' }}>↗</div>
+                  )}
+                </>
+              );
+
+              return c.link ? (
+                <a
+                  href={c.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="cert-card"
+                  key={c.name}
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                  {CardContent}
+                </a>
+              ) : (
+                <div className="cert-card" key={c.name}>
+                  {CardContent}
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

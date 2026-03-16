@@ -8,10 +8,6 @@ import ContactPage from './Components/ContactPage';
 import { DATA, useScrollReveal } from './data';
 import './App.css';
 
-/* ═══════════════════════════════════════════════════════════
-   HOME PAGE COMPONENTS (Inline)
-═══════════════════════════════════════════════════════════ */
-/* ...(truncating intermediate unchanged code for replacement logic)... */
 
 function Hero() {
   return (
@@ -194,9 +190,9 @@ function HomePage() {
   return (
     <main>
       <Hero />
-      <About />
-      <Experience />
       <Education />
+      <Experience />
+      <About />
     </main>
   );
 }
