@@ -17,26 +17,7 @@ export default function ContactPage() {
   ];
 
   return (
-    <main>
-      {/* ── Page Hero ── */}
-      <section className="page-hero">
-        <div className="hero-orb-1" />
-        <div className="hero-orb-2" />
-        <div className="container">
-          <div className="page-hero-content reveal">
-            <div className="hero-badge">
-              <span className="dot" /> Say Hello
-            </div>
-            <h1 className="page-hero-title">
-              Let's <span className="gradient-text">Connect</span>
-            </h1>
-            <p className="page-hero-subtitle">
-              Whether you have an opportunity, a project idea, or just want to say hi.
-            </p>
-          </div>
-        </div>
-      </section>
-
+    <main style={{ paddingTop: '80px' }}>
       {/* ── Contact ── */}
       <section id="contact" className="contact-section">
         <div className="container">
@@ -45,10 +26,6 @@ export default function ContactPage() {
               <h2>
                 Get in <span className="gradient-text">Touch</span>
               </h2>
-              <p>
-                Whether you have an exciting opportunity, a cool project idea, or just want to
-                say hi — my inbox is always open. I'll do my best to get back to you!
-              </p>
               <div className="contact-links">
                 {contactItems.map((item) =>
                   item.href ? (

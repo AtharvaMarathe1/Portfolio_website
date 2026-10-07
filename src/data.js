@@ -106,7 +106,7 @@ export const DATA = {
   certifications: [
     { icon: '🏆', name: 'AWS Certified Solutions Architect – Associate', issuer: 'Amazon Web Services', link: 'AWS Certified Solutions Architect - Associate certificate.pdf' },
     { icon: '☁️', name: 'Google Cloud Computing Foundation', issuer: 'Google Cloud', link: '#' },
-    { icon: '🌐', name: 'Web-Verse: Web Development and Design', issuer: 'Android Club, VIT Chennai', link: 'AtharvaSSCCertificate.jpg' },
+    { icon: '🌐', name: 'Web-Verse: Web Development and Design', issuer: 'Android Club, VIT Chennai', link: null },
     { icon: '🔐', name: 'Ethical Hacking', issuer: 'NPTEL', link: "C:/Users/athar/Downloads/AtharvaSSCCertificate.jpg" },
   ],
 
