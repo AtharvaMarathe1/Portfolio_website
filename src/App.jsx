@@ -81,10 +81,10 @@ function Hero() {
 
 function About() {
   const cards = [
-    { label: 'Location', value: DATA.location, sub: 'Mumbai, Maharashtra' },
+    { label: 'Location', value: DATA.location, sub: 'Pune, Maharashtra' },
     { label: 'Email', value: DATA.email, sub: 'Open to opportunities' },
     { label: 'Phone', value: DATA.phone, sub: 'WhatsApp available' },
-    { label: 'Date of Birth', value: DATA.dob, sub: '22 years old' },
+    { label: 'Date of Birth', value: DATA.dob, sub: '23 years old' },
     { label: 'Languages', value: 'English · German · Hindi · Marathi', sub: 'Multilingual' },
     { label: 'Hobbies', value: 'Badminton · Chess · Music', sub: 'Beyond the keyboard' },
   ];
