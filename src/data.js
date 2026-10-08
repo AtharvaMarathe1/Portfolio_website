@@ -7,16 +7,16 @@ export const DATA = {
   name: 'Atharva Marathe',
   initials: 'AM',
   title: 'Full Stack Developer',
-  subtitle: 'General Engineer Trainee @ TCS | Spring Boot · React · AWS',
+  subtitle: 'Assistant Systems Engineer @ TCS | Spring Boot · React · AWS',
   email: 'apmarathe10@gmail.com',
   phone: '+91 8329632714',
   github: 'https://github.com/AtharvaMarathe1',
   dob: '12 Sep 2003',
-  location: 'Mumbai, India',
+  location: 'Pune, India',
 
   experience: [
     {
-      role: 'General Engineer Trainee',
+      role: 'Assistant Systems Engineer',
       company: 'Tata Consultancy Services (TCS) · Mumbai, India',
       date: 'Nov 2025 – Present',
       icon: '🏢',
