@@ -19,31 +19,38 @@ export default function ProjectsPage() {
             <p className="section-subtitle">A showcase of my technical work.</p>
           </div>
           <div className="projects-grid">
-            {DATA.projects.map((p) => (
-              <div className="project-card reveal" key={p.title}>
-                <div className="project-icon">{p.icon}</div>
-                <div>
-                  <div className="project-title">{p.title}</div>
-                  <p className="project-desc">{p.desc}</p>
-                </div>
-                <div className="project-tags">
-                  {p.tags.map((t) => (
-                    <span className="tag" key={t}>{t}</span>
-                  ))}
-                </div>
-                <div className="project-links">
-                  {p.github ? (
-                    <a href={p.github} target="_blank" rel="noreferrer" className="project-link">
-                      <GithubIcon /> Code
-                    </a>
-                  ) : (
-                    <span className="project-link" style={{ opacity: 0.4, cursor: 'default' }}>
-                      🔒 Private
-                    </span>
-                  )}
-                </div>
-              </div>
-            ))}
+            {DATA.projects.map((p) => {
+              const CardWrapper = p.live ? 'a' : 'div';
+              const cardProps = p.live
+                ? { href: p.live, target: '_blank', rel: 'noreferrer', style: { textDecoration: 'none', color: 'inherit' } }
+                : {};
+
+              return (
+                <CardWrapper className="project-card reveal" key={p.title} {...cardProps}>
+                  <div className="project-icon">{p.icon}</div>
+                  <div>
+                    <div className="project-title">{p.title}</div>
+                    <p className="project-desc">{p.desc}</p>
+                  </div>
+                  <div className="project-tags">
+                    {p.tags.map((t) => (
+                      <span className="tag" key={t}>{t}</span>
+                    ))}
+                  </div>
+                  <div className="project-links">
+                    {p.github ? (
+                      <a href={p.github} target="_blank" rel="noreferrer" className="project-link" onClick={(e) => e.stopPropagation()}>
+                        <GithubIcon /> Code
+                      </a>
+                    ) : (
+                      <span className="project-link" style={{ opacity: 0.4, cursor: 'default' }}>
+                        🔒 Private
+                      </span>
+                    )}
+                  </div>
+                </CardWrapper>
+              );
+            })}
           </div>
         </div>
       </section>

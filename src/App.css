@@ -586,6 +586,12 @@ section {
   gap: 16px;
 }
 
+a.project-card {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
 .project-card::before {
   content: '';
   position: absolute;

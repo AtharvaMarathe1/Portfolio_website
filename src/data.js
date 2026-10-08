@@ -41,7 +41,7 @@ export const DATA = {
       title: 'Library Management System',
       desc: 'Enterprise-grade library platform built with Spring Boot microservices. Utilises Eureka Server for service registration, Feign Client for inter-service communication, and Angular for a rich, responsive UI.',
       tags: ['Spring Boot', 'Microservices', 'Eureka', 'Feign Client', 'Angular', 'Spring MVC'],
-      github: null,
+      github: 'https://github.com/AtharvaMarathe1/Library-Management-System-SpringBoot-',
       live: null,
     },
     {
@@ -58,7 +58,7 @@ export const DATA = {
       desc: 'Real-time weather application built in JavaScript that fetches live weather data from external APIs, displaying temperature, humidity, and conditions for any location worldwide.',
       tags: ['JavaScript', 'REST API', 'HTML/CSS'],
       github: 'https://github.com/AtharvaMarathe1/Weather',
-      live: null,
+      live: 'https://weather-nu-roan.vercel.app/',
     },
     {
       icon: '🔗',
