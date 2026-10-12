@@ -21,6 +21,7 @@ export const DATA = {
       date: 'Nov 2025 – Present',
       icon: '🏢',
       bullets: ['Working on Spring Boot and Linux-based enterprise solutions'],
+      tags: ['Spring Boot', 'Linux', 'Microservices', 'Enterprise'],
     },
     {
       role: 'Full Stack Development & AI Integration Intern',
@@ -32,10 +33,19 @@ export const DATA = {
         'Applied contrast enhancement and alphabet bounding boxes for feature extraction',
         'Deployed via TFLite and TF.js (React) for cross-platform use',
       ],
+      tags: ['TensorFlow', 'React', 'TF.js', 'TFLite', 'CNN'],
     },
   ],
 
   projects: [
+    {
+      icon: '🔬',
+      title: 'Quantum-Enhanced Generative AI for Underwater Image Enhancement',
+      desc: 'Developed a hybrid Quantum GAN combining quantum circuits and CNNs for underwater image enhancement. Integrated Cirq, SymPy, and PyTorch to build trainable quantum layers within an encoder-decoder generator. Implemented adversarial training using PyTorch Lightning, with MSE, L1, and VGG-based perceptual losses.',
+      tags: ['Quantum Computing', 'GAN', 'PyTorch', 'Cirq', 'SymPy', 'PyTorch Lightning', 'CNN'],
+      github: null,
+      live: null,
+    },
     {
       icon: '📚',
       title: 'Library Management System',
@@ -90,16 +100,6 @@ export const DATA = {
       icon: '🤖',
       title: 'AI / ML',
       tags: ['TensorFlow', 'TFLite', 'PyTorch', 'CUDA', 'CNN'],
-    },
-    {
-      icon: '🛠️',
-      title: 'Tools & Others',
-      tags: ['Git', 'Video Editing', 'Adobe Premiere Pro', 'Adobe After Effects'],
-    },
-    {
-      icon: '🌐',
-      title: 'Languages',
-      tags: ['English', 'German', 'Hindi', 'Marathi'],
     },
   ],
 
