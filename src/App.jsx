@@ -126,8 +126,8 @@ function HeroSection() {
             {DATA.initials}
           </div>
           <div className="hero-name-block">
-            <h1 className="hero-name">{DATA.name.split(' ')[0].toLowerCase()}</h1>
-            <div className="hero-handle">@{DATA.name.replace(/\s+/g, '').toLowerCase()}</div>
+            <h1 className="hero-name">{DATA.name.split(' ')[0]}</h1>
+            <div className="hero-handle">@{DATA.email.replace(/\s+/g, '').toLowerCase()}</div>
           </div>
           <div className="hero-time">
             <div>// {h12}:{minutes} {ampm}</div>
@@ -169,7 +169,7 @@ function CVSection() {
   return (
     <section className="cv-section">
       <div className="container reveal">
-        <h3>Curriculum Vitae</h3>
+        {/* <h3>Curriculum Vitae</h3> */}
         <div className="cv-card">
           <div className="cv-card-label">Resume / CV</div>
           <div className="cv-card-title">Career Snapshot</div>
@@ -177,8 +177,13 @@ function CVSection() {
             A quick walkthrough of my experience, impactful builds, technical stack,
             and the work I care about.
           </div>
-          <a href={`mailto:${DATA.email}?subject=Resume Request`} className="cv-download-btn">
-            Request CV →
+          <a
+            href="/Atharva_Resume_.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cv-download-btn"
+          >
+            View Resume →
           </a>
         </div>
       </div>
